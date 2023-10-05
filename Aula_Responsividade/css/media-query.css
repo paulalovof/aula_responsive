@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    .container-img{
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+    
+      .item-img{
+        width: 40%;
+      }
+  }
+  
+  @media screen and (max-width: 461px){
+    *{
+      font-size: 12px;
+    }
+  
+    header{
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .container-img{
+      flex-direction: row;
+    }
+  
+    .item-img{
+      width: 80%;
+    }
+  
+    footer{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .contato{
+      display: flex;
+      flex-direction: column;
+      gap:10px;
+    }
+  }
